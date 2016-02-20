@@ -1,0 +1,9 @@
+{
+  "name": "ava",
+  "version": "0.0.1",
+  "description": "a mental health portal by penn students, for penn students",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.5"
+  }
+}
