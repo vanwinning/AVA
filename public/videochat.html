@@ -25,6 +25,8 @@
     <!-- Custom styles for this template -->
     <link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
 
+    <link rel = "stylesheet" href="videochat.css" type ="text/css">
+
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,40 +47,41 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="./images/logonewb.png"></a>
+          <a class="navbar-brand" href="./index.html"><img src="./images/logonewb.png"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="./about.html">About Us</a></li>
             <li><a href="http://www.vpul.upenn.edu/caps/">PennCAP Appointments</a></li>
-            <li class="active"><a href="./peer.html">Become a Peer Counselor!</a></li>
+            <li><a href="./peer.html">Become a Peer Counselor!</a></li>
             <li><a href="./resources.html">Resources</a></li>
             <li><a href="./webchat.html">Webchat</a></li>
-            <li><a href="./videochat.html">Videochat</a></li>
+            <li class="active"><a href="./webchat.html">Videochat</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-      <div class="container">
+    <div class="container">
 
-	      <form class="form-signin">
-	        <h2 class="form-signin-heading">Please sign in</h2>
-	        <label for="inputEmail" class="sr-only">Email address</label>
-	        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-	        <label for="inputPassword" class="sr-only">Password</label>
-	        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-	        <div class="checkbox">
-	          <label>
-	            <input type="checkbox" value="remember-me"> Remember me
-	          </label>
-	        </div>
-	        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-	      </form>
+      <h1> <b>Welcome to CAPS Vid-chat!</b></h1>
+      <img> 
 
-	    </div> <!-- /formcontainer -->
-	    </div>
+
+      <!-- Begin Fresh Tilled Soil Video Chat Embed Code -->
+      <div id="freshtilledsoil_embed_widget" class="video-chat-widget"></div>
+      <script id="fts" src="http://freshtilledsoil.com/embed/webrtc-v5.js?r=FTS0316-CZ6NqG97"></script>
+      <p> <b> <i>Hello, you are about to enter a skype chat with your peer counselor. Please follow the following instructions to begin! </i></b></p>
+
+
+      <ol> <b> To video chat </b>
+      <li> Please type your given channel name to begin your video chat.</li>
+      <li> click start chat </li>
+      </ol>
+
+
+    </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
